@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         )
 
 
-        cancionAdapter = CancionAdapter(cancionRepository.getCancion())
+        cancionAdapter = CancionAdapter(listas)
         rvCanciones.adapter = cancionAdapter
 
         val btnAgregar: Button = findViewById(R.id.btnAgregarCancion)
