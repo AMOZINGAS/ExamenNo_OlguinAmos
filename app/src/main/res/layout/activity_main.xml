@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biblioteca de musica"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCanciones"
+        android:layout_width="match_parent"
+        app:spanCount="3"
+        android:layout_height="500dp"
+        tools:listitem="@layout/item_music"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        />
+
+    <Button
+        android:id="@+id/btnAgregarCancion"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:text="Agregar cancion"/>
+
+
+</LinearLayout>

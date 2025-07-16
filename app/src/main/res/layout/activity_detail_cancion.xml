@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvCancionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triller"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvArtistaDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Michael Jackson"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album: "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triller"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3:30"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnPlayMusic"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Play Triller"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/item_musica"/>
+
+    <Button
+        android:id="@+id/btnEliminarCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar cancion"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

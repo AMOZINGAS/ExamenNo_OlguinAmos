@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196648013321",
+    "project_id": "examennoolguin",
+    "storage_bucket": "examennoolguin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196648013321:android:0313b362cd440b252c32d8",
+        "android_client_info": {
+          "package_name": "duran.cesar.examenno_olguinamos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4m9KWC1ZFwbDCm2LGlh-J7vh7GA7CmzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
