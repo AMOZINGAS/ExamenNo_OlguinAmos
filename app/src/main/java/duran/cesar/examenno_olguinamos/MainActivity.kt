@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        cancionRepository = ViewModelProvider(this)[CancionRepository::class.java]
 
         var listas = listOf(Cancion(
             "","WhitoutMe", "Eminem", "The Eminems Show", "3:20"),
